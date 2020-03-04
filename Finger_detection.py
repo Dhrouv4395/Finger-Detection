@@ -2,8 +2,8 @@ import cv2
 import numpy as np
 import imutils
 import math
-lo = np.array([0,130,101])
-hi = np.array([198,155,148])
+#lo = np.array([0,130,101])
+#hi = np.array([198,155,148])
 cap = cv2.VideoCapture(0)
 
 def putText(cv2,gray,txt):
